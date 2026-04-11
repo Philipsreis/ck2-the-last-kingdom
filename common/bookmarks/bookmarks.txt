@@ -1,0 +1,15 @@
+# The Last Kingdom — Start Date
+# Alfred ja e Rei de Wessex
+# Aethelred ja morreu na Batalha de Merton
+
+TLK_871 = {
+    name = "TLK_871_NAME"
+    desc = "TLK_871_DESC"
+    date = 871.5.1
+    picture = "GFX_evt_northern_lords"
+    audio = "mx_cue_special_bookmark"
+
+    selectable_character = {
+        character = 7627
+    }
+}
