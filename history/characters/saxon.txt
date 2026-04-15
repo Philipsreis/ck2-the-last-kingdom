@@ -1382,34 +1382,11 @@
 	849.1.1={
 		birth=yes
 	}
-	868.1.1={
-		add_spouse=252376
-	}
 	871.4.24={
 		give_nickname=nick_the_great
 	}
 	899.10.26={
 		death=yes
-	}
-}
-
-7629 = {
-	name="Elfthryth"
-	female = yes
-	dynasty=100072
-	martial=3
-	diplomacy=5
-	intrigue=5
-	stewardship=9
-	religion="catholic"
-	culture="saxon"
-	trait="scholarly_theologian"
-	father=7627
-	870.1.1={
-		birth="870.1.1"
-	}
-	929.6.7={
-		death="929.6.7"
 	}
 }
 
@@ -7783,25 +7760,6 @@
 		death=yes
 	}
 }
-252377 = {
-	name=" thelflaed" #Lady of the Mercians
-	female = yes
-	dynasty=100072
-	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=9
-	religion="catholic"
-	culture="saxon"
-	trait="scholarly_theologian"
-	father=7627
-	870.1.1={
-		birth=yes
-	}
-	918.6.12={
-		death=yes
-	}
-}
 252378 = {
 	name=" thelgifu" #Abbess of Shaftesbury
 	female = yes
@@ -8081,4 +8039,89 @@
 	937.1.1 = {
 		death = yes
 	}
+}
+# Ealhswith - esposa de Alfred
+# Criada pelo mod The Last Kingdom
+
+2700001 = {
+    name = Ealhswith
+    female = yes
+    dynasty = 100073
+    martial = 3
+    diplomacy = 8
+    intrigue = 6
+    stewardship = 7
+    learning = 8
+    religion = catholic
+    culture = saxon
+    trait = kind
+    trait = patient
+    trait = zealous
+    852.1.1 = {
+        birth = yes
+    }
+    868.1.1 = {
+        add_spouse = 7627
+    }
+    902.12.8 = {
+        death = yes
+    }
+}
+# Filhos de Alfred - The Last Kingdom
+
+# Aethelflaed - Lady of Mercia
+2700004 = {
+    name = Aethelflaed
+    female = yes
+    dynasty = 100072
+    father = 7627
+    mother = 2700001
+    religion = catholic
+    culture = saxon
+    trait = brave
+    trait = diligent
+    trait = just
+    869.1.1 = {
+        birth = yes
+    }
+    918.6.12 = {
+        death = yes
+    }
+}
+
+# Edward - futuro rei
+2700010 = {
+    name = Edward
+    dynasty = 100072
+    father = 7627
+    mother = 2700001
+    religion = catholic
+    culture = saxon
+    trait = diligent
+    trait = patient
+    870.1.1 = {
+        birth = yes
+    }
+    924.7.17 = {
+        death = yes
+    }
+}
+
+# Osferth - filho bastardo de Alfred
+# Aparece na serie como guerreiro leal a Uhtred
+2700006 = {
+    name = Osferth
+    dynasty = 100072
+    father = 7627
+    religion = catholic
+    culture = saxon
+    trait = bastard
+    trait = brave
+    trait = honest
+    866.1.1 = {
+        birth = yes
+    }
+    934.1.1 = {
+        death = yes
+    }
 }
