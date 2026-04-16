@@ -8125,3 +8125,130 @@
         death = yes
     }
 }
+# Leofric - guerreiro de Wessex, companheiro de Uhtred
+2700011 = {
+    name = Leofric
+    religion = catholic
+    culture = saxon
+    trait = brave
+    trait = wrathful
+    trait = strong
+    trait = skilled_tactician
+    hair = 3
+    beard = 0
+    879.1.1 = {
+        martial = 14
+        diplomacy = 6
+        stewardship = 5
+        intrigue = 6
+        learning = 4
+    }
+    840.1.1 = {
+        birth = yes
+    }
+    871.5.1 = {
+        employer = 7627
+    }
+    900.1.1 = {
+        death = yes
+    }
+}
+
+# Beocca - padre conselheiro de Alfred
+2700012 = {
+    name = Beocca
+    religion = catholic
+    culture = saxon
+    trait = mastermind_theologian
+    trait = zealous
+    trait = kind
+    trait = humble
+    hair = 0
+    beard = 0
+    871.1.1 = {
+        martial = 4
+        diplomacy = 10
+        stewardship = 7
+        intrigue = 5
+        learning = 16
+    }
+    835.1.1 = {
+        birth = yes
+    }
+    871.5.1 = {
+        employer = 7627
+    }
+    910.1.1 = {
+        death = yes
+    }
+}
+# Aethelwold - filho de Aethelred, pretendente ao trono de Wessex
+2700013 = {
+    name = Aethelwold
+    dynasty = 100072
+    father = 33358
+    religion = catholic
+    culture = saxon
+    trait = intricate_webweaver
+    trait = ambitious
+    trait = envious
+    trait = deceitful
+    trait = craven
+    trait = lustful
+    855.1.1 = {
+        birth = yes
+    }
+    856.1.1 = {
+        martial = 6
+        diplomacy = 8
+        stewardship = 4
+        intrigue = 12
+        learning = 5
+    }
+    871.5.1 = {
+        employer = 7627
+        claim = k_wessex
+    }
+    902.1.1 = {
+        death = yes
+    }
+}
+# Uhtred de Bebbanburg - guerreiro criado pelos vikings
+2700014 = {
+    name = Uhtred
+    dynasty = 100072
+    religion = norse_pagan
+    culture = saxon
+    trait = skilled_tactician
+    trait = brave
+    trait = robust
+    trait = ambitious
+    trait = cynical
+    trait = lustful
+    trait = arbitrary
+    hair = 2
+    beard = 0
+    855.1.1 = {
+        birth = yes
+        trait = skilled_tactician
+        trait = brave
+        trait = robust
+        trait = ambitious
+        trait = cynical
+        trait = lustful
+        trait = arbitrary
+    }
+    856.1.1 = {
+        martial = 16
+        diplomacy = 7
+        stewardship = 5
+        intrigue = 8
+        learning = 4
+    }
+    871.5.1 = {
+        employer = 7627
+    }
+    924.1.1 = {
+        death = yes
+    }
+}
