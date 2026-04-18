@@ -8216,7 +8216,8 @@
 # Uhtred de Bebbanburg - guerreiro criado pelos vikings
 2700014 = {
     name = Uhtred
-    dynasty = 100072
+    dynasty = 744
+    father = 2700017
     religion = norse_pagan
     culture = saxon
     trait = skilled_tactician
@@ -8250,5 +8251,310 @@
     }
     924.1.1 = {
         death = yes
+    }
+}
+2700015 = {
+    name = Odda
+    dynasty = 2700100
+    religion = catholic
+    culture = saxon
+    trait = brilliant_strategist
+    trait = diligent
+    trait = just
+    trait = patient
+    trait = temperate
+    trait = gregarious
+    821.1.1 = {
+        birth = yes
+        trait = brilliant_strategist
+        trait = diligent
+        trait = just
+        trait = patient
+        trait = temperate
+        trait = gregarious
+    }
+    830.1.1 = {
+        martial = 14
+        diplomacy = 10
+        stewardship = 6
+        intrigue = 5
+        learning = 7
+    }
+    871.5.1 = {
+        employer = 7627
+    }
+}
+
+2700016 = {
+    name = Odda
+    dynasty = 2700100
+    father = 2700015
+    religion = catholic
+    culture = saxon
+    trait = schemer
+    trait = ambitious
+    trait = wrathful
+    trait = envious
+    trait = deceitful
+    trait = lustful
+    hair = 1
+    beard = 0
+    846.1.1 = {
+        birth = yes
+        trait = schemer
+        trait = ambitious
+        trait = wrathful
+        trait = envious
+        trait = deceitful
+        trait = lustful
+    }
+    847.1.1 = {
+        martial = 8
+        diplomacy = 7
+        stewardship = 6
+        intrigue = 12
+        learning = 5
+    }
+    871.5.1 = {
+        employer = 7627
+    }
+}
+# Uhtred o Velho - pai de Uhtred, Ealdorman de Bebbanburg
+2700017 = {
+    name = Uhtred
+    dynasty = 744
+    religion = catholic
+    culture = saxon
+    trait = brilliant_strategist
+    trait = brave
+    trait = proud
+    trait = wrathful
+    trait = arbitrary
+    trait = stubborn
+    820.1.1 = {
+        birth = yes
+        trait = brilliant_strategist
+        trait = brave
+        trait = proud
+        trait = wrathful
+        trait = arbitrary
+        trait = stubborn
+    }
+    821.1.1 = {
+        martial = 14
+        diplomacy = 6
+        stewardship = 7
+        intrigue = 4
+        learning = 5
+    }
+    866.1.1 = {
+        death = yes
+    }
+}
+
+# Ælfric de Bebbanburg - tio usurpador de Uhtred
+2700018 = {
+    name = Aelfric
+    dynasty = 744
+    religion = catholic
+    culture = saxon
+    trait = schemer
+    trait = ambitious
+    trait = deceitful
+    trait = craven
+    trait = greedy
+    trait = paranoid
+    830.1.1 = {
+        birth = yes
+        trait = schemer
+        trait = ambitious
+        trait = deceitful
+        trait = craven
+        trait = greedy
+        trait = paranoid
+    }
+    831.1.1 = {
+        martial = 5
+        diplomacy = 9
+        stewardship = 10
+        intrigue = 14
+        learning = 7
+    }
+    871.5.1 = {
+        employer = 2700018
+    }
+}
+
+# Earl Ragnar o Velho - pai adotivo de Uhtred
+2700019 = {
+    name = Ragnar
+    dynasty = 2700103
+    religion = norse_pagan
+    culture = norse
+    trait = brilliant_strategist
+    trait = brave
+    trait = gregarious
+    trait = just
+    trait = generous
+    trait = zealous
+    790.1.1 = {
+        birth = yes
+        trait = brilliant_strategist
+        trait = brave
+        trait = gregarious
+        trait = just
+        trait = generous
+        trait = zealous
+    }
+    791.1.1 = {
+        martial = 16
+        diplomacy = 12
+        stewardship = 7
+        intrigue = 6
+        learning = 5
+    }
+    866.1.1 = {
+        death = {
+            death_reason = death_murder
+            killer = 2700024
+        }
+    }
+}
+# Ragnar o Jovem - irmão adotivo de Uhtred
+2700020 = {
+    name = Ragnar
+    dynasty = 2700103
+    father = 2700019
+    religion = norse_pagan
+    culture = norse
+    trait = brilliant_strategist
+    trait = brave
+    trait = wrathful
+    trait = loyal
+    trait = generous
+    trait = temperate
+    hair = 2
+    beard = 1
+    848.1.1 = {
+        birth = yes
+        trait = brilliant_strategist
+        trait = brave
+        trait = wrathful
+        trait = loyal
+        trait = generous
+        trait = temperate
+    }
+    849.1.1 = {
+        martial = 15
+        diplomacy = 8
+        stewardship = 6
+        intrigue = 5
+        learning = 4
+    }
+    871.5.1 = {
+        employer = 2700022
+    }
+}
+
+# Brida - companheira de Uhtred
+2700021 = {
+    name = Brida
+    female = yes
+    religion = norse_pagan
+    culture = norse
+    trait = skilled_tactician
+    trait = brave
+    trait = wrathful
+    trait = zealous
+    trait = cruel
+    trait = cynical
+    hair = 3
+    854.1.1 = {
+        birth = yes
+        trait = skilled_tactician
+        trait = brave
+        trait = wrathful
+        trait = zealous
+        trait = cruel
+        trait = cynical
+    }
+    855.1.1 = {
+        martial = 12
+        diplomacy = 6
+        stewardship = 4
+        intrigue = 10
+        learning = 5
+    }
+    871.5.1 = {
+        employer = 2700022
+    }
+}
+
+# Guthrum - warlord dinamarquês, segundo de Ubba
+2700023 = {
+    name = Guthrum
+    dynasty = 2700102
+    religion = norse_pagan
+    culture = norse
+    trait = skilled_tactician
+    trait = patient
+    trait = cynical
+    trait = ambitious
+    trait = diligent
+    trait = arbitrary
+    hair = 2
+    beard = 1
+    825.1.1 = {
+        birth = yes
+        trait = skilled_tactician
+        trait = patient
+        trait = cynical
+        trait = ambitious
+        trait = diligent
+        trait = arbitrary
+    }
+    826.1.1 = {
+        martial = 14
+        diplomacy = 10
+        stewardship = 8
+        intrigue = 11
+        learning = 9
+    }
+    890.1.1 = {
+        death = yes
+    }
+}
+
+# Kjartan - assassino de Ragnar o Velho, antagonista
+2700024 = {
+    name = Kjartan
+    religion = norse_pagan
+    culture = norse
+    trait = skilled_tactician
+    trait = brave
+    trait = cruel
+    trait = wrathful
+    trait = deceitful
+    trait = envious
+    hair = 1
+    beard = 1
+    835.1.1 = {
+        birth = yes
+        trait = skilled_tactician
+        trait = brave
+        trait = cruel
+        trait = wrathful
+        trait = deceitful
+        trait = envious
+    }
+    836.1.1 = {
+        martial = 13
+        diplomacy = 5
+        stewardship = 6
+        intrigue = 10
+        learning = 3
+    }
+    871.5.1 = {
+        employer = 2700022
     }
 }

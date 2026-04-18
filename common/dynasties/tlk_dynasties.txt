@@ -1,0 +1,11 @@
+# The Last Kingdom - Dynasties
+
+2700100 = {
+    name = "Odda"
+    culture = saxon
+}
+
+2700101 = {
+    name = "Bebbanburg"
+    culture = saxon
+}
