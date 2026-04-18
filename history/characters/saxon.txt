@@ -8131,7 +8131,7 @@
     religion = catholic
     culture = saxon
     trait = brave
-    trait = wrathful
+    trait = wroth
     trait = strong
     trait = skilled_tactician
     hair = 3
@@ -8293,7 +8293,7 @@
     culture = saxon
     trait = schemer
     trait = ambitious
-    trait = wrathful
+    trait = wroth
     trait = envious
     trait = deceitful
     trait = lustful
@@ -8303,7 +8303,7 @@
         birth = yes
         trait = schemer
         trait = ambitious
-        trait = wrathful
+        trait = wroth
         trait = envious
         trait = deceitful
         trait = lustful
@@ -8328,7 +8328,7 @@
     trait = brilliant_strategist
     trait = brave
     trait = proud
-    trait = wrathful
+    trait = wroth
     trait = arbitrary
     trait = stubborn
     820.1.1 = {
@@ -8336,7 +8336,7 @@
         trait = brilliant_strategist
         trait = brave
         trait = proud
-        trait = wrathful
+        trait = wroth
         trait = arbitrary
         trait = stubborn
     }
@@ -8380,8 +8380,8 @@
         intrigue = 14
         learning = 7
     }
-    871.5.1 = {
-        employer = 2700018
+    866.1.1 = {
+    add_spouse = 2700026
     }
 }
 
@@ -8429,7 +8429,7 @@
     culture = norse
     trait = brilliant_strategist
     trait = brave
-    trait = wrathful
+    trait = wroth
     trait = loyal
     trait = generous
     trait = temperate
@@ -8439,7 +8439,7 @@
         birth = yes
         trait = brilliant_strategist
         trait = brave
-        trait = wrathful
+        trait = wroth
         trait = loyal
         trait = generous
         trait = temperate
@@ -8464,7 +8464,7 @@
     culture = norse
     trait = skilled_tactician
     trait = brave
-    trait = wrathful
+    trait = wroth
     trait = zealous
     trait = cruel
     trait = cynical
@@ -8473,7 +8473,7 @@
         birth = yes
         trait = skilled_tactician
         trait = brave
-        trait = wrathful
+        trait = wroth
         trait = zealous
         trait = cruel
         trait = cynical
@@ -8528,12 +8528,13 @@
 # Kjartan - assassino de Ragnar o Velho, antagonista
 2700024 = {
     name = Kjartan
+    dynasty = 2700104
     religion = norse_pagan
     culture = norse
     trait = skilled_tactician
     trait = brave
     trait = cruel
-    trait = wrathful
+    trait = wroth
     trait = deceitful
     trait = envious
     hair = 1
@@ -8543,7 +8544,7 @@
         trait = skilled_tactician
         trait = brave
         trait = cruel
-        trait = wrathful
+        trait = wroth
         trait = deceitful
         trait = envious
     }
@@ -8554,7 +8555,175 @@
         intrigue = 10
         learning = 3
     }
+}
+
+2700026 = {
+    name = Gytha
+    female = yes
+    religion = catholic
+    culture = saxon
+    trait = zealous
+    trait = kind
+    trait = patient
+    trait = humble
+    trait = charitable
+    trait = shy
+    hair = 1
+    840.1.1 = {
+        birth = yes
+        trait = zealous
+        trait = kind
+        trait = patient
+        trait = humble
+        trait = charitable
+        trait = shy
+    }
+    841.1.1 = {
+        martial = 2
+        diplomacy = 8
+        stewardship = 6
+        intrigue = 3
+        learning = 10
+    }
+    866.1.1 = {
+        employer = 2700018
+    }
+}
+2700025 = {
+    name = Wihtgar
+    dynasty = 744
+    father = 2700018
+    mother = 2700026
+    religion = catholic
+    culture = saxon
+    trait = schemer
+    trait = ambitious
+    trait = cruel
+    trait = wroth
+    trait = deceitful
+    trait = envious
+    hair = 1
+    beard = 0
+    868.1.1 = {
+        birth = yes
+        trait = schemer
+        trait = ambitious
+        trait = cruel
+        trait = wroth
+        trait = deceitful
+        trait = envious
+    }
+    869.1.1 = {
+        martial = 10
+        diplomacy = 6
+        stewardship = 7
+        intrigue = 13
+        learning = 4
+    }
+}
+# Thyra - irmã de Ragnar o Jovem, capturada por Kjartan
+2700027 = {
+    name = Thyra
+    female = yes
+    dynasty = 2700103
+    father = 2700019
+    religion = norse_pagan
+    culture = norse
+    trait = kind
+    trait = humble
+    trait = patient
+    trait = shy
+    trait = charitable
+    trait = zealous
+    hair = 2
+    850.1.1 = {
+        birth = yes
+        trait = kind
+        trait = humble
+        trait = patient
+        trait = shy
+        trait = charitable
+        trait = zealous
+    }
+    851.1.1 = {
+        martial = 3
+        diplomacy = 8
+        stewardship = 7
+        intrigue = 5
+        learning = 9
+    }
+    866.1.1 = {
+        employer = 2700024
+        prisoner = 2700024
+    }
+}
+
+# Steapa - guerreiro de Alfred, capitão da guarda
+2700028 = {
+    name = Steapa
+    religion = catholic
+    culture = saxon
+    trait = strong
+    trait = brave
+    trait = diligent
+    trait = wroth
+    trait = honest
+    trait = stubborn
+    hair = 1
+    beard = 1
+    845.1.1 = {
+        birth = yes
+        trait = strong
+        trait = brave
+        trait = diligent
+        trait = wroth
+        trait = honest
+        trait = stubborn
+    }
+    846.1.1 = {
+        martial = 16
+        diplomacy = 4
+        stewardship = 5
+        intrigue = 3
+        learning = 4
+    }
     871.5.1 = {
-        employer = 2700022
+        employer = 7627
+    }
+}
+2700029 = {
+    name = Sven
+    dynasty = 2700104
+    father = 2700024
+    religion = norse_pagan
+    culture = norse
+    trait = skilled_tactician
+    trait = brave
+    trait = cruel
+    trait = wroth
+    trait = lustful
+    trait = envious
+    trait = one_eyed
+    hair = 1
+    beard = 1
+    848.1.1 = {
+        birth = yes
+        trait = skilled_tactician
+        trait = brave
+        trait = cruel
+        trait = wroth
+        trait = lustful
+        trait = envious
+        trait = one_eyed
+    }
+    849.1.1 = {
+        martial = 12
+        diplomacy = 4
+        stewardship = 5
+        intrigue = 9
+        learning = 3
+    }
+    871.5.1 = {
+        employer = 2700024
     }
 }

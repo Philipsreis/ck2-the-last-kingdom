@@ -5,7 +5,16 @@
     culture = saxon
 }
 
-2700101 = {
-    name = "Bebbanburg"
-    culture = saxon
+2700102 = {
+    name = "Ragnarsson"
+    culture = norse_norse
+}
+
+2700103 = {
+    name = "Ravnsson"
+    culture = norse_norse
+}
+2700104 = {
+    name = "Kjartan"
+    culture = norse_norse
 }
