@@ -1,15 +1,37 @@
-# The Last Kingdom — Start Date
-# Alfred ja e Rei de Wessex
-# Aethelred ja morreu na Batalha de Merton
+bm_tlk_871 = {
+	name = "TLK_871_NAME"
+	desc = "TLK_871_DESC"
+	date = 871.5.1
 
-TLK_871 = {
-    name = "TLK_871_NAME"
-    desc = "TLK_871_DESC"
-    date = 871.5.1
-    picture = "GFX_evt_northern_lords"
-    audio = "mx_cue_special_bookmark"
+	picture = GFX_pick_era_image_3
 
-    selectable_character = {
-        character = 7627
-    }
+	selectable_character = {
+		id = 7627 # Alfred of Wessex
+		age = 22
+		name = "Alfred"
+		title = k_wessex
+		title_name = k_wessex
+
+		character = {
+			religion = "catholic"
+			culture = "saxon"
+			government = feudal_government
+			dynasty = 100070
+		}
+	}
+
+	selectable_character = {
+		id = 2700014 # Uhtred of Bebbanburg
+		age = 16
+		name = "Uhtred"
+		title = c_northumberland
+		title_name = c_northumberland
+
+		character = {
+			religion = "norse_pagan"
+			culture = "saxon"
+			government = feudal_government
+			dynasty = 744
+		}
+	}
 }

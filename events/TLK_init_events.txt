@@ -1,0 +1,37 @@
+namespace = TLK
+
+character_event = {
+	id = TLK.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		character = 7627
+	}
+
+	immediate = {
+		# Rivalidades de Uhtred
+		character = 2700014 {
+			character = 2700018 {
+				add_rival = 2700014
+			}
+			character = 2700024 {
+				add_rival = 2700014
+			}
+		}
+
+		# Rivalidade Ragnar Jovem x Kjartan
+		character = 2700020 {
+			character = 2700024 {
+				add_rival = 2700020
+			}
+		}
+
+		# Amizade Uhtred x Ragnar Jovem
+		character = 2700014 {
+			character = 2700020 {
+				add_friend = 2700014
+			}
+		}
+	}
+}

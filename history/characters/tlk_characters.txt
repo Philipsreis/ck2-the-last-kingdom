@@ -8248,6 +8248,9 @@
     }
     871.5.1 = {
         employer = 7627
+        add_rival = 2700018
+        add_rival = 2700024
+        add_friend = 2700020
     }
     924.1.1 = {
         death = yes
@@ -8452,7 +8455,8 @@
         learning = 4
     }
     871.5.1 = {
-        employer = 2700022
+        employer = 163119
+        add_rival = 2700024
     }
 }
 
