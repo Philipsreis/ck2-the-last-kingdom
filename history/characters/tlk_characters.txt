@@ -42,30 +42,6 @@
 	}
 }
 
-100 = {
-	name="Eadward"
-	# AKA: Eadweard 'se Ieldra'
-	dynasty=100072
-	martial=4
-	diplomacy=6
-	intrigue=7
-	stewardship=7
-	religion="catholic"
-	culture="saxon"
-	trait="honest"
-	trait="tough_soldier"
-	father = 7627
-	874.1.1={
-		birth="874.1.1"
-	}
-	920.1.1 = {
-		give_nickname=nick_the_old
-	}
-	924.7.17={
-		death="924.7.17"
-	}
-}
-
 101 = {
 	name="Edithia"
 	female = yes
@@ -3937,9 +3913,6 @@
 	850.1.1={
 		birth=yes
 	}
-	886.1.1={
-		add_spouse=252377
-	}
 	911.1.1={
 		death=yes
 	}
@@ -7760,53 +7733,6 @@
 		death=yes
 	}
 }
-252378 = {
-	name=" thelgifu" #Abbess of Shaftesbury
-	female = yes
-	dynasty=100072
-	religion="catholic"
-	culture="saxon"
-	trait="scholarly_theologian"
-	father=7627
-	875.1.1={
-		birth=yes
-	}
-	921.1.1={
-		death=yes
-	}
-}
-252379 = {
-	name=" thelweard" #son of Alfred the Great
-	dynasty=100072
-	religion="catholic"
-	culture="saxon"
-	trait="scholarly_theologian"
-	father=7627
-	876.1.1={
-		birth=yes
-	}
-	922.10.16={
-		death=yes
-	}
-}
-252380 = {
-	name=" lfwynn" # of Mercia
-	dynasty=1047004
-	female = yes
-	religion="catholic"
-	culture="saxon"
-	father=205088
-	mother=252377
-	888.1.1={
-		birth=yes
-	}
-	919.1.1 = {
-		add_claim = d_hereford	
-	}
-	950.1.1={
-		death=yes
-	}
-}
 260524 = {
 	name = "Cenfus"
 	dynasty = 1062208
@@ -8042,7 +7968,6 @@
 }
 # Ealhswith - esposa de Alfred
 # Criada pelo mod The Last Kingdom
-
 2700001 = {
     name = Ealhswith
     female = yes
@@ -8067,10 +7992,9 @@
         death = yes
     }
 }
-# Filhos de Alfred - The Last Kingdom
 
 # Aethelflaed - Lady of Mercia
-2700004 = {
+252377 = {
     name = Aethelflaed
     female = yes
     dynasty = 100072
@@ -8108,7 +8032,6 @@
 }
 
 # Osferth - filho bastardo de Alfred
-# Aparece na serie como guerreiro leal a Uhtred
 2700006 = {
     name = Osferth
     dynasty = 100072
@@ -8125,6 +8048,7 @@
         death = yes
     }
 }
+
 # Leofric - guerreiro de Wessex, companheiro de Uhtred
 2700011 = {
     name = Leofric
@@ -8136,15 +8060,19 @@
     trait = skilled_tactician
     hair = 3
     beard = 0
-    879.1.1 = {
+    840.1.1 = {
+        birth = yes
+        trait = brave
+        trait = wroth
+        trait = strong
+        trait = skilled_tactician
+    }
+    841.1.1 = {
         martial = 14
         diplomacy = 6
         stewardship = 5
         intrigue = 6
         learning = 4
-    }
-    840.1.1 = {
-        birth = yes
     }
     871.5.1 = {
         employer = 7627
@@ -8165,15 +8093,19 @@
     trait = humble
     hair = 0
     beard = 0
-    871.1.1 = {
+    835.1.1 = {
+        birth = yes
+        trait = mastermind_theologian
+        trait = zealous
+        trait = kind
+        trait = humble
+    }
+    836.1.1 = {
         martial = 4
         diplomacy = 10
         stewardship = 7
         intrigue = 5
         learning = 16
-    }
-    835.1.1 = {
-        birth = yes
     }
     871.5.1 = {
         employer = 7627
@@ -8182,6 +8114,7 @@
         death = yes
     }
 }
+
 # Aethelwold - filho de Aethelred, pretendente ao trono de Wessex
 2700013 = {
     name = Aethelwold
@@ -8197,6 +8130,12 @@
     trait = lustful
     855.1.1 = {
         birth = yes
+        trait = intricate_webweaver
+        trait = ambitious
+        trait = envious
+        trait = deceitful
+        trait = craven
+        trait = lustful
     }
     856.1.1 = {
         martial = 6
@@ -8207,12 +8146,15 @@
     }
     871.5.1 = {
         employer = 7627
-        claim = k_wessex
+        effect = {
+            add_claim = k_wessex
+        }
     }
     902.1.1 = {
         death = yes
     }
 }
+
 # Uhtred de Bebbanburg - guerreiro criado pelos vikings
 2700014 = {
     name = Uhtred
@@ -8248,14 +8190,18 @@
     }
     871.5.1 = {
         employer = 7627
-        add_rival = 2700018
-        add_rival = 2700024
-        add_friend = 2700020
+        effect = {
+            add_rival = 2700018
+            add_rival = 2700024
+            add_friend = 2700020
+        }
     }
     924.1.1 = {
         death = yes
     }
 }
+
+# Odda o Velho - Ealdorman de Somerset
 2700015 = {
     name = Odda
     dynasty = 2700100
@@ -8288,6 +8234,7 @@
     }
 }
 
+# Odda o Jovem
 2700016 = {
     name = Odda
     dynasty = 2700100
@@ -8322,6 +8269,7 @@
         employer = 7627
     }
 }
+
 # Uhtred o Velho - pai de Uhtred, Ealdorman de Bebbanburg
 2700017 = {
     name = Uhtred
@@ -8355,7 +8303,7 @@
     }
 }
 
-# Ælfric de Bebbanburg - tio usurpador de Uhtred
+# Aelfric de Bebbanburg - tio usurpador de Uhtred
 2700018 = {
     name = Aelfric
     dynasty = 744
@@ -8384,7 +8332,7 @@
         learning = 7
     }
     866.1.1 = {
-    add_spouse = 2700026
+        add_spouse = 2700026
     }
 }
 
@@ -8423,7 +8371,8 @@
         }
     }
 }
-# Ragnar o Jovem - irmão adotivo de Uhtred
+
+# Ragnar o Jovem - irmao adotivo de Uhtred
 2700020 = {
     name = Ragnar
     dynasty = 2700103
@@ -8433,7 +8382,7 @@
     trait = brilliant_strategist
     trait = brave
     trait = wroth
-    trait = loyal
+    trait = kind
     trait = generous
     trait = temperate
     hair = 2
@@ -8443,7 +8392,7 @@
         trait = brilliant_strategist
         trait = brave
         trait = wroth
-        trait = loyal
+        trait = kind
         trait = generous
         trait = temperate
     }
@@ -8456,7 +8405,9 @@
     }
     871.5.1 = {
         employer = 163119
-        add_rival = 2700024
+        effect = {
+            add_rival = 2700024
+        }
     }
 }
 
@@ -8490,11 +8441,11 @@
         learning = 5
     }
     871.5.1 = {
-        employer = 2700022
+        employer = 163119
     }
 }
 
-# Guthrum - warlord dinamarquês, segundo de Ubba
+# Guthrum - warlord dinamarques
 2700023 = {
     name = Guthrum
     dynasty = 2700102
@@ -8561,6 +8512,7 @@
     }
 }
 
+# Gytha - esposa de Aelfric, madrasta de Uhtred
 2700026 = {
     name = Gytha
     female = yes
@@ -8593,6 +8545,8 @@
         employer = 2700018
     }
 }
+
+# Wihtgar - filho de Aelfric e Gytha
 2700025 = {
     name = Wihtgar
     dynasty = 744
@@ -8625,7 +8579,8 @@
         learning = 4
     }
 }
-# Thyra - irmã de Ragnar o Jovem, capturada por Kjartan
+
+# Thyra - irma de Ragnar o Jovem, capturada por Kjartan
 2700027 = {
     name = Thyra
     female = yes
@@ -8658,11 +8613,10 @@
     }
     866.1.1 = {
         employer = 2700024
-        prisoner = 2700024
     }
 }
 
-# Steapa - guerreiro de Alfred, capitão da guarda
+# Steapa - guerreiro de Alfred, capitao da guarda
 2700028 = {
     name = Steapa
     religion = catholic
@@ -8695,6 +8649,8 @@
         employer = 7627
     }
 }
+
+# Sven o de um Olho - filho de Kjartan
 2700029 = {
     name = Sven
     dynasty = 2700104
@@ -8730,4 +8686,23 @@
     871.5.1 = {
         employer = 2700024
     }
+}
+7629 = {
+	name="Elfthryth"
+	female = yes
+	dynasty=100072
+	martial=3
+	diplomacy=5
+	intrigue=5
+	stewardship=9
+	religion="catholic"
+	culture="saxon"
+	trait="scholarly_theologian"
+	father=7627
+	871.1.1={
+		birth="870.1.1"
+	}
+	929.6.7={
+		death="929.6.7"
+	}
 }
