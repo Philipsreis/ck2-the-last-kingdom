@@ -1,37 +1,30 @@
 namespace = TLK
 
 character_event = {
-	id = TLK.1
-	hide_window = yes
+	id = TLK.2
+	title = "A Saxon Born of Danes"
+	desc = "A young warrior stands at the gates of Winchester. He is Uhtred of Bebbanburg - Saxon by birth, Dane by upbringing. Beside him stands Brida. Father Beocca vouches for them both. Can a man who worships pagan gods be trusted to fight for Wessex?"
+	picture = GFX_evt_throne_room
+	border = GFX_event_normal_frame_diplomacy
+
 	is_triggered_only = yes
 
 	trigger = {
 		character = 7627
+		NOT = { has_character_flag = tlk_uhtred_arrived }
 	}
 
 	immediate = {
-		# Rivalidades de Uhtred
-		character = 2700014 {
-			character = 2700018 {
-				add_rival = 2700014
-			}
-			character = 2700024 {
-				add_rival = 2700014
-			}
-		}
-
-		# Rivalidade Ragnar Jovem x Kjartan
-		character = 2700020 {
-			character = 2700024 {
-				add_rival = 2700020
-			}
-		}
-
-		# Amizade Uhtred x Ragnar Jovem
-		character = 2700014 {
-			character = 2700020 {
-				add_friend = 2700014
-			}
-		}
+		set_character_flag = tlk_uhtred_arrived
 	}
+
+	option = {
+    name = "Accept them"
+    prestige = 10
+}
+
+option = {
+    name = "Refuse them"
+    prestige = -10
+}
 }

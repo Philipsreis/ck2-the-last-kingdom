@@ -8189,11 +8189,12 @@
         learning = 4
     }
     871.5.1 = {
-        employer = 7627
         effect = {
             add_rival = 2700018
             add_rival = 2700024
             add_friend = 2700020
+			add_friend = 2700021
+			add_friend = 2700012
         }
     }
     924.1.1 = {
@@ -8407,6 +8408,7 @@
         employer = 163119
         effect = {
             add_rival = 2700024
+			add_friend = 2700021
         }
     }
 }
@@ -8439,9 +8441,6 @@
         stewardship = 4
         intrigue = 10
         learning = 5
-    }
-    871.5.1 = {
-        employer = 163119
     }
 }
 
