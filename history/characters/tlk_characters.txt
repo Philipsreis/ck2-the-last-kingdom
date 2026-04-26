@@ -8189,6 +8189,7 @@
         learning = 4
     }
     871.5.1 = {
+        employer = 7627
         effect = {
             add_rival = 2700018
             add_rival = 2700024
@@ -8442,7 +8443,11 @@
         intrigue = 10
         learning = 5
     }
+    871.5.1 = {
+        employer = 7627
+    }
 }
+
 
 # Guthrum - warlord dinamarques
 2700023 = {

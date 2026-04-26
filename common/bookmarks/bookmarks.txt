@@ -2,16 +2,13 @@ bm_tlk_871 = {
 	name = "TLK_871_NAME"
 	desc = "TLK_871_DESC"
 	date = 871.5.1
-
 	picture = GFX_pick_era_image_3
-
 	selectable_character = {
-		id = 7627 # Alfred of Wessex
+		id = 7627
 		age = 22
 		name = "Alfred"
 		title = k_wessex
 		title_name = k_wessex
-
 		character = {
 			religion = "catholic"
 			culture = "saxon"
@@ -19,19 +16,43 @@ bm_tlk_871 = {
 			dynasty = 100070
 		}
 	}
-
 	selectable_character = {
-		id = 2700014 # Uhtred of Bebbanburg
-		age = 16
-		name = "Uhtred"
+		id = 2700018
+		age = 41
+		name = "Aelfric"
 		title = c_northumberland
 		title_name = c_northumberland
-
 		character = {
-			religion = "norse_pagan"
+			religion = "catholic"
 			culture = "saxon"
 			government = feudal_government
 			dynasty = 744
+		}
+	}
+	selectable_character = {
+		id = 2700024
+		age = 36
+		name = "Kjartan"
+		title = c_durham
+		title_name = c_durham
+		character = {
+			religion = "norse_pagan"
+			culture = "norse"
+			government = feudal_government
+			dynasty = 2700104
+		}
+	}
+	selectable_character = {
+		id = 2700015
+		age = 50
+		name = "Odda"
+		title = c_somerset
+		title_name = c_somerset
+		character = {
+			religion = "catholic"
+			culture = "saxon"
+			government = feudal_government
+			dynasty = 2700100
 		}
 	}
 }

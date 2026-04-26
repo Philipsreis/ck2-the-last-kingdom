@@ -1,5 +1,5 @@
 on_startup = {
     events = {
-        TLK.2
+        TLK.1
     }
 }
