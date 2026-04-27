@@ -1,3 +1,19 @@
+namespace = TLK
+
+character_event = {
+    id = TLK.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        character = 7627
+    }
+
+    immediate = {
+        character_event = { id = TLK.2 days = 1 }
+    }
+}
+
 character_event = {
     id = TLK.2
     title = TLK_EVT_2_TITLE
@@ -17,5 +33,20 @@ character_event = {
     option = {
         name = TLK_EVT_2_OPTA
         prestige = 10
+    }
+}
+
+character_event = {
+    id = TLK.3
+    hide_window = yes
+    is_triggered_only = yes
+
+    trigger = {
+        character = 2700014
+        NOT = { has_artifact = tlk_serpent_breath }
+    }
+
+    immediate = {
+        add_artifact = tlk_serpent_breath
     }
 }

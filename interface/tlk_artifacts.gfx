@@ -1,0 +1,6 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_artifact_sword_of_heroes"
+        texturefile = "gfx/interface/artifacts/sword_of_heroes.dds"
+    }
+}

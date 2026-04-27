@@ -8190,6 +8190,7 @@
     }
     871.5.1 = {
         employer = 7627
+        give_artifact = tlk_serpent_breath
         effect = {
             add_rival = 2700018
             add_rival = 2700024

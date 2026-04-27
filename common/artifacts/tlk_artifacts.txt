@@ -1,0 +1,18 @@
+tlk_serpent_breath = {
+	picture = "GFX_sword_fancy"
+	slot = weapon
+	flags = { combat_weapon sword }
+
+	indestructible = yes
+	quality = 4
+	stacking = no
+
+	active = {
+		age = 14
+	}
+
+	monthly_character_prestige = 0.25
+	martial = 2
+	combat_rating = 3
+	health = 0.5
+}
