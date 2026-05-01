@@ -50,3 +50,75 @@ character_event = {
         add_artifact = tlk_serpent_breath
     }
 }
+
+# Evento de apresentacao de Aelfric
+character_event = {
+    id = TLK.4
+    title = TLK_EVT_4_TITLE
+    desc = TLK_EVT_4_DESC
+    picture = GFX_evt_castle
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+        character = 2700018
+        NOT = { has_character_flag = tlk_aelfric_intro }
+    }
+
+    immediate = {
+        set_character_flag = tlk_aelfric_intro
+    }
+
+    option = {
+        name = TLK_EVT_4_OPTA
+        prestige = 10
+    }
+}
+
+# Evento de apresentacao de Kjartan
+character_event = {
+    id = TLK.5
+    title = TLK_EVT_5_TITLE
+    desc = TLK_EVT_5_DESC
+    picture = GFX_evt_siege
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+        character = 2700024
+        NOT = { has_character_flag = tlk_kjartan_intro }
+    }
+
+    immediate = {
+        set_character_flag = tlk_kjartan_intro
+    }
+
+    option = {
+        name = TLK_EVT_5_OPTA
+        prestige = 10
+    }
+}
+
+# Evento de apresentacao de Odda o Velho
+character_event = {
+    id = TLK.6
+    title = TLK_EVT_6_TITLE
+    desc = TLK_EVT_6_DESC
+    picture = GFX_evt_battle
+    border = GFX_event_normal_frame_diplomacy
+    is_triggered_only = yes
+
+    trigger = {
+        character = 2700015
+        NOT = { has_character_flag = tlk_odda_intro }
+    }
+
+    immediate = {
+        set_character_flag = tlk_odda_intro
+    }
+
+    option = {
+        name = TLK_EVT_6_OPTA
+        prestige = 10
+    }
+}

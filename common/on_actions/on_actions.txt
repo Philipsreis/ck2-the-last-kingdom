@@ -2,5 +2,8 @@ on_startup = {
     events = {
         TLK.1
         TLK.3
+        TLK.4
+        TLK.5
+        TLK.6
     }
 }
